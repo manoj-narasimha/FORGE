@@ -1,7 +1,9 @@
 import "./App.css";
 import Eventspage from "./Eventspage/Eventspage";
+import About from "./about/About";
 import { Intro } from "./intro/Intro";
 import Introloader from "./intro/Introloader";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -20,8 +22,11 @@ function App() {
       </section>
       {/* <section className="eventspage"></section> */}
       <div className="">
-        <Eventspage />
+        <About />
       </div>
+      {/* <div className="">
+        <Eventspage />
+      </div> */}
     </div>
   );
 }

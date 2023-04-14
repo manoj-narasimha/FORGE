@@ -12,19 +12,77 @@ export const Intro = () => {
     gsap.fromTo(
       ".qt-up",
       { y: 70, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5, delay: 0.5 }
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.5,
+        delay: 0.5,
+        ease: "slow",
+        scrollTrigger: {
+          trigger: ".intro-1",
+          // markers: true,
+          scrub: 1,
+          start: "center 10%",
+          end: "bottom 10%",
+        },
+      }
     );
     gsap.fromTo(
       ".qt-emp",
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5, delay: 0.6 }
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.5,
+        delay: 0.6,
+        ease: "slow",
+        scrollTrigger: {
+          trigger: ".intro-1",
+          // markers: true,
+          scrub: 1,
+          start: "center 15%",
+          end: "bottom 10%",
+        },
+      }
     );
-
     gsap.fromTo(
       ".qt-down",
       { y: 70, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.51, delay: 0.7 }
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.51,
+        delay: 0.7,
+        ease: "slow",
+        scrollTrigger: {
+          trigger: ".intro-1",
+          // markers: true,
+          scrub: 1,
+          //   pin: true,
+          start: "center 20%",
+          end: "bottom 10%",
+        },
+      }
     );
+
+    // gsap.fromTo(
+    //   ".qt-up",
+    //   { y: 70, opacity: 0 },
+
+    //   { y: 0, opacity: 1, duration: 0.5, delay: 0.5 }
+    // );
+
+    // gsap.fromTo(
+    //   ".qt-emp",
+    //   { y: 50, opacity: 0 },
+    //   { y: 0, opacity: 1, duration: 0.5, delay: 0.6 }
+    // );
+
+    // gsap.fromTo(
+    //   ".qt-down",
+    //   { y: 70, opacity: 0 },
+    //   { y: 0, opacity: 1, duration: 0.51, delay: 0.7 }
+    // );
     // gsap.fromTo(".banner", { x: 200 }, { x: -50, duration: 1 });
 
     gsap.fromTo(
@@ -99,9 +157,9 @@ export const Intro = () => {
           </div>
         </div>
       </div>
-      <section className="filler ">
-        <img src="public/pics/gif1.gif" alt="" srcset="" />
-      </section>
+      {/* <section className="filler ">
+        <img src="/pics/gif1.gif" alt="" srcset="" />
+      </section> */}
     </section>
   );
 };
