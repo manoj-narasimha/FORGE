@@ -3,26 +3,27 @@
   background-color: black;
   border-radius: 30px 30px 30px 30px;
   margin-top: 150px;
-
 }
 .about-title {
   color: white;
   font-size: 140px;
-  transform: translateY(50%) rotate(-90deg);
+  transform: translateY(30%) rotate(-90deg);
   display: flex;
   justify-content: center;
   align-items: center;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
   height: 100%;
   position: sticky;
   top: 0;
   padding-block: 2rem;
+  margin-top: 2rem;
 }
 .about-container {
   height: 100%;
   display: flex;
   min-height: 100vh;
   position: relative;
+  padding-bottom: 2rem;
   /* justify-content: center; */
   /* align-items: center; */
 }

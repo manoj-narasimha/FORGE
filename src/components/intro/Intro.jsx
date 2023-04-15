@@ -89,7 +89,7 @@ export const Intro = () => {
       ".title-up",
       { x: -200 },
       {
-        x: 150,
+        x: 180,
         // opacity: 1,
         duration: 500,
         // delay: 100,
@@ -101,7 +101,7 @@ export const Intro = () => {
           //   markers: true,
           scrub: 1,
           //   pin: true,
-          start: "center 40% ",
+          start: "center 50% ",
           end: "bottom 10%",
         },
       }
@@ -111,7 +111,7 @@ export const Intro = () => {
       ".title-down",
       { x: 200 },
       {
-        x: -150,
+        x: -180,
         // opacity: 1,
         duration: 500,
         // delay: 100,
@@ -125,7 +125,7 @@ export const Intro = () => {
           //   markers: true,
           scrub: 1,
           //   pin: true,
-          start: "center 20% ",
+          start: "center 40% ",
           end: "bottom 10% ",
         },
       }

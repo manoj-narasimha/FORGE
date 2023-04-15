@@ -5,7 +5,7 @@ import { Intro } from "./components/intro/Intro";
 import Introloader from "./components/intro/Introloader";
 import Footer from "./components/Footer/Footer.jsx";
 import Events_landing from "./components/Events_landing/Events_landing.jsx";
-
+import Event_title from "./components/Events_landing/Event_title";
 function App() {
   return (
     <div className="App">
@@ -15,9 +15,14 @@ function App() {
       <section className="intro-start ">
         <Intro />
       </section>
-      <div className="">
-        <Events_landing />
-    </div>
+      <div className="event-list">
+        <div className="">
+          <Event_title />
+        </div>
+        <div className="">
+          <Events_landing />
+        </div>
+      </div>
       <div className="">
         <About />
       </div>
@@ -25,7 +30,6 @@ function App() {
         <Footer />
       </div>
     </div>
-    
   );
 }
 
