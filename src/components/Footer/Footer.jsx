@@ -3,15 +3,15 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="">
-      <div className="md:w-full mx-auto p-4 ">
+    <footer className="ot-red ">
+      <div className="md:w-full mx-auto p-4 text-white">
         <div className="sm:flex items-center  sm:items-center sm:justify-evenly ">
           <a
             href="https://flowbite.com/"
             className="flex flex-wrap justify-center items-center mb-4 sm:mb-0"
           >
             <img
-              src="forge.jpg"
+              src="/forge_trans.png"
               className="h-[150px] mr-3"
               alt="Flowbite Logo"
             />
