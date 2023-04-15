@@ -1,33 +1,31 @@
 import "./App.css";
-import Eventspage from "./Eventspage/Eventspage";
-import About from "./about/About";
-import { Intro } from "./intro/Intro";
-import Introloader from "./intro/Introloader";
-import Footer from "./Footer/Footer";
+import Eventspage from "./components/Eventspage/Eventspage";
+import About from "./components/about/About.jsx";
+import { Intro } from "./components/intro/Intro";
+import Introloader from "./components/intro/Introloader";
+import Footer from "./components/Footer/Footer.jsx";
+import Events_landing from "./components/Events_landing/Events_landing.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* <section className="intro-1 ff-tc ds-no">
-        <div className="intro-box">
-          <div className="intro-btn"></div>
-          <div className="intro-btn-txt">GG</div>
-        </div>
-      </section> */}
       <div className="">
         <Introloader />
       </div>
       <section className="intro-start ">
         <Intro />
       </section>
-      {/* <section className="eventspage"></section> */}
+      <div className="">
+        <Events_landing />
+    </div>
       <div className="">
         <About />
       </div>
-      {/* <div className="">
-        <Eventspage />
-      </div> */}
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
+    
   );
 }
 
