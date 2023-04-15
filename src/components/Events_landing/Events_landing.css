@@ -32,6 +32,10 @@ article h2 {
   transition: color 0.3s ease-out;
 }
 
+.article-body {
+  color: #333;
+}
+
 figure {
   margin: 0;
   padding: 0;
