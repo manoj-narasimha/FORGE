@@ -174,3 +174,20 @@ article:has(:hover, :focus) {
 /* .about-page {
   background-color: black;
 } */
+/* position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  } 
+  */
+
+.event {
+  align-items: left;
+  width: 100%;
+  height: 100%;
+  padding-left: 200px;
+  padding-bottom: 80px;
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000;
+}
