@@ -19,7 +19,7 @@ export default function Events_landing() {
                   other college teams in intense gameplay that rewards strategy
                   and teamwork. Don't miss out on this thrilling gaming event!
                 </p>
-                <a href="#" class="read-more">
+                <a href="/valorant" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -51,7 +51,7 @@ export default function Events_landing() {
                   thrilling cash prizes. Register now and show off your skills
                   in this epic gaming event!
                 </p>
-                <a href="#" class="read-more">
+                <a href="/fifa" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -83,7 +83,7 @@ export default function Events_landing() {
                   with players from other colleges. Don't miss this chance to be
                   a champion!{" "}
                 </p>
-                <a href="#" class="read-more">
+                <a href="/pubg" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -116,7 +116,7 @@ export default function Events_landing() {
                   mentorship. Win exciting prizes and explore the potential of
                   VR/AR.
                 </p>
-                <a href="#" class="read-more">
+                <a href="/hackathon" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -149,7 +149,7 @@ export default function Events_landing() {
                   lobortis porta. Vestibulum ultrices iaculis enim imperdiet
                   egestas.
                 </p>
-                <a href="#" class="read-more">
+                <a href="/rendezvous" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -183,7 +183,7 @@ export default function Events_landing() {
                   all-star cast. Don't miss your chance to see this blockbuster
                   movie on the big screen at our gaming event.{" "}
                 </p>
-                <a href="#" class="read-more">
+                <a href="/gaming-arena" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -216,7 +216,7 @@ export default function Events_landing() {
                   lobortis porta. Vestibulum ultrices iaculis enim imperdiet
                   egestas.
                 </p>
-                <a href="#" class="read-more">
+                <a href="/hallucinate" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -250,7 +250,7 @@ export default function Events_landing() {
                   cutting-edge technology, experience a thrilling world of spy
                   missions and espionage.{" "}
                 </p>
-                <a href="#" class="read-more">
+                <a href="/laser-maze" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
@@ -284,7 +284,7 @@ export default function Events_landing() {
                   all-star cast. Don't miss your chance to see this blockbuster
                   movie on the big screen at our gaming event.{" "}
                 </p>
-                <a href="#" class="read-more">
+                <a href="/flash" class="read-more">
                   Read more{" "}
                   <span class="sr-only">about this is some title</span>
                   <svg
