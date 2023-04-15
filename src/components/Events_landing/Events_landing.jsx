@@ -4,7 +4,12 @@ import "./Events_landing.css";
 
 export default function Events_landing() {
     return (
+        // 
+        
         <div>
+            <div className="event">
+                EVENTS
+            </div>
         <section class="articles">
             <article>
             <div class="article-wrapper">
